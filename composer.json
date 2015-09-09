@@ -1,5 +1,5 @@
 {
-    "name": "dsalcedo/laragun",
+    "name": "Laragun",
     "description": "The email service for laravel usign Mailgun API.",
     "require": {
         "guzzlehttp/guzzle": "~5.0"
@@ -10,7 +10,6 @@
     },
     "autoload": {
         "psr-0": {
-            "Mailgun\\Tests": "tests/",
             "Mailgun": "src/"
         }
     },
