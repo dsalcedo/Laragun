@@ -1,0 +1,25 @@
+{
+    "name": "dsalcedo/laragun",
+    "description": "The email service for laravel usign Mailgun API.",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mailgun\\Tests": "tests/",
+            "Mailgun": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josafat Daniel Salcedo Sambrano",
+            "email": "daniel.salcedo.sambrano@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
